@@ -30,7 +30,7 @@ public class Clientapp {
     public static void main(String[] args) {
         //InetAddress ip;
         Scanner reader = new Scanner(System.in);
-        String localhost = "NITISH-PC";
+        String localhost = "Your_host_name_or_PC_name";  //Change the contents of the string according to your hostname or PC name
         DataOutputStream os = null;
         String message;
         int port = 8000;
